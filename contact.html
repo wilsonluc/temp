@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Wilson Luc" name="author">
+    <meta content="Contact" name="description">
+
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        a:link, a:visited {
+            color: white;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+
+    <title>Contact</title>
+
+</head>
+
+<body class="body">
+<div id="title">
+    <div class="header_bg"></div>
+    <div class="header_text">ANZAC Douglas Raymond Baker - Letters Home</div>
+    <div class="contact a:link a:visited"><a href="contact.html">Contact me!</a></div>
+</div>
+
+<nav id="dashboard">
+    <div class="dashboard_bg"></div>
+    <a class="dashboard_text home" href="home.html">Home</a>
+    <a class="dashboard_text introduction" href="introduction.html">Introduction</a>
+    <a class="dashboard_text letters" href="letters.html">Letters & Post Cards</a>
+    <a class="dashboard_text places" href="places.html">Places</a>
+</nav>
+
+
+<div id="form"
+     style="position: absolute; left: 35%; top: 30%; width: 30%; height: 50vh; background: white; border: 1px black solid">
+    <div id="title_contact" style="padding-left: 30px; width: 100%; height: 5vh">
+        <p style="font-size: 2vw; padding-left: 10px; padding-bottom: 10px; ">Contact Us</p>
+    </div>
+
+    <div id="left_container" style="float: left; width: 50%">
+        <p style="padding-top: 13px; text-align: right; padding-right: 10px">Name</p>
+        <p style="padding-top: 12px; text-align: right; padding-right: 10px">Email</p>
+        <p style="padding-top: 12px; text-align: right; padding-right: 10px">Mobile</p>
+        <p style="padding-top: 12px; text-align: right; padding-right: 10px">Subject</p>
+        <p style="padding-top: 15px; text-align: right; padding-right: 10px">Message</p>
+
+    </div>
+
+    <div id="right_container" style="float: right; width: 50%">
+        <form action="https://titan.csit.rmit.edu.au/~e54061/wp/testcontact.php"
+              method="post" style="position: absolute; top: 20%; left: 50%">
+
+            <label for="name"></label><br>
+            <input type="text" id="name" name="name" placeholder="e.g. Tom Smith" class="standard_input"><br>
+
+            <label for="email"></label><br>
+            <input type="text" id="email" name="email" placeholder="e.g. abc@gmail.com" class="standard_input"><br>
+
+            <label for="mobile"></label><br>
+            <input type="text" id="mobile" name="mobile" placeholder="e.g. 0412345678" class="standard_input"><br>
+
+            <label for="subject"></label><br>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Thanks for posting" class="standard_input"><br>
+
+            <label for="message" style="word-wrap: break-word"></label><br>
+            <textarea id="message" name="message" placeholder="Your message here" class="large_input"
+                      wrap="soft" style="width: 98%"></textarea>
+
+            <div id="check" style="padding-top: 10px">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label><br>
+            </div>
+
+            <div id="sub" style="padding-top: 10px">
+            </div>
+
+            <input type="submit" id="send" value="Send">
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Wilson Luc" name="author">
+    <meta content="Places" name="description">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="places.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        a:link, a:visited {
+            color: white;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+
+    <title>Places</title>
+
+</head>
+
+<body class="body">
+<div id="title">
+    <div class="header_bg"></div>
+    <div class="header_text" style="font-family: 'Yusei Magic', sans-serif;">ANZAC Douglas Raymond Baker - Letters
+        Home
+    </div>
+    <div class="contact a:link a:visited" style="font-family: 'Yusei Magic', sans-serif;"><a href="contact.html">Contact
+        me!</a></div>
+</div>
+
+<nav id="dashboard">
+    <div class="dashboard_bg"></div>
+    <a class="dashboard_text home" href="home.html" style="font-family: 'Yusei Magic', sans-serif;">Home</a>
+    <a class="dashboard_text introduction" href="introduction.html" style="font-family: 'Yusei Magic', sans-serif;">Introduction</a>
+    <a class="dashboard_text letters" href="letters.html" style="font-family: 'Yusei Magic', sans-serif;">Letters & Post
+        Cards</a>
+    <a class="dashboard_text places" href="places.html" style="font-family: 'Yusei Magic', sans-serif;">Places</a>
+</nav>
+
+<div id="description" style="position:absolute; width: 92%; left: 4%; top: 18%; text-align:center ;font-size: 20px">
+    <h1 style="font-family: 'Alegreya Sans', sans-serif">Places mentioned by Dad:</h1>
+    <p style="line-height: 0; font-family: 'Alegreya Sans', sans-serif">(Hover over the red dots to interact)</p>
+</div>
+
+<div id="world" style="position: absolute; left: 20%; top: 30%">
+    <img src="../../media/world.svg" alt="Map of the world">
+</div>
+
+<div id="pos">
+    <span id="dot1"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Australia</p>
+            <h1>Place(s): </h1>
+            <p>Enogerra<br>
+                Pinkenba</p>
+        </div>
+    </div>
+    <span id="dot2"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Australia</p>
+            <h1>Place(s): </h1>
+            <p>Grantham</p>
+        </div>
+    </div>
+    <span id="dot3"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Australia</p>
+            <h1>Place(s): </h1>
+            <p>Melbourne</p>
+        </div>
+    </div>
+    <span id="dot4"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Australia</p>
+            <h1>Place(s): </h1>
+            <p>Albany</p>
+        </div>
+    </div>
+    <span id="dot5"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Sri Lanka</p>
+        </div>
+    </div>
+    <span id="dot6"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Yemen</p>
+            <h1>Place(s): </h1>
+            <p>Aden</p>
+        </div>
+    </div>
+    <span id="dot7"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Egypt</p>
+        </div>
+    </div>
+    <span id="dot8"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Egypt</p>
+            <h1>Place(s): </h1>
+            <p>Suez</p>
+        </div>
+    </div>
+    <span id="dot9"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Egypt</p>
+            <h1>Place(s): </h1>
+            <p>Port Said</p>
+        </div>
+    </div>
+    <span id="dot10"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Egypt</p>
+            <h1>Place(s): </h1>
+            <p>Alexandria</p>
+        </div>
+    </div>
+    <span id="dot11"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Egypt</p>
+            <h1>Place(s): </h1>
+            <p>Cairo<br>
+                Mena Camp<br>
+                Zeitoun</p>
+        </div>
+    </div>
+    <span id="dot12"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Greece</p>
+            <h1>Place(s): </h1>
+            <p>Lemnos Island</p>
+        </div>
+    </div>
+    <span id="dot13"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Turkey</p>
+            <h1>Place(s): </h1>
+            <p>Dardanelles Strait<br>
+                Gallipoli<br>
+                Hill 60</p>
+        </div>
+    </div>
+    <span id="dot14"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Malta</p>
+            <h1>Place(s): </h1>
+            <p>Fort Tigne<br>
+                Valletta<br>
+                Fort Ricasoli</p>
+        </div>
+    </div>
+    <span id="dot15"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Egypt</p>
+            <h1>Place(s): </h1>
+            <p>Tell El Kebir</p>
+        </div>
+    </div>
+    <span id="dot16"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Marseille</p>
+        </div>
+    </div>
+    <span id="dot17"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Strazeele<br>
+                Hazebrouck<br>
+                Baileul<br>
+                Godeswanvelde<br>
+                Bonneville<br>
+                Halleborouck<br>
+                Estaires<br>
+                Sailly<br>
+                Toutencourt<br>
+                Harponville<br>
+                Varrenes<br>
+                Steenvorde<br>
+                Cassel<br>
+                Noordpiene </p>
+        </div>
+    </div>
+
+    <span id="dot18"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Estaires<br>
+                Sailly<br>
+                Toutencourt<br>
+                Harponville<br>
+                Varrenes<br>
+                Hedauville<br>
+                Albert<br>
+                Pozieres<br>
+                La Boiselle<br>
+                Contalmaison<br>
+                Longueval<br>
+                Trones Wood<br>
+                Bapaume<br>
+                Fricourt </p>
+        </div>
+    </div>
+
+    <span id="dot19"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Pont-Remy<br>
+                Abbeville<br>
+                Bellancourt<br>
+                Amiens<br>
+                Ailly<br>
+                Henencourt Wood<br>
+                Naours<br>
+                Doullens<br>
+                Beauval<br>
+                Somme<br>
+                Halloy-Pernois<br>
+                Hericourt<br>
+                Dernancourt</p>
+        </div>
+    </div>
+
+
+    <span id="dot20"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Brazil</p>
+            <h1>Place(s): </h1>
+            <p>Palmas</p>
+        </div>
+    </div>
+
+    <span id="dot21"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Watten<br>
+                Polincove</p>
+        </div>
+    </div>
+    <span id="dot22"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>Belgium</p>
+            <h1>Place(s): </h1>
+            <p>Proven<br>
+                De Panne<br>
+                Poperinge<br>
+                Reninghelst<br>
+                Ypres<br>
+                Boescheppe</p>
+        </div>
+    </div>
+    <span id="dot23"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Buire</p>
+        </div>
+    </div>
+    <span id="dot24"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Croisy</p>
+        </div>
+    </div>
+    <span id="dot25"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>France</p>
+            <h1>Place(s): </h1>
+            <p>Havre</p>
+        </div>
+    </div>
+    <span id="dot26"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>United Kingdom</p>
+            <h1>Place(s): </h1>
+            <p>Southhampton</p>
+        </div>
+    </div>
+    <span id="dot27"></span>
+    <div id="loc_desc">
+        <div id="box">
+            <h1>Country:</h1>
+            <p>United Kingdom</p>
+            <h1>Place(s): </h1>
+            <p>London</p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

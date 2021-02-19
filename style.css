@@ -1,0 +1,183 @@
+.header_bg {
+    position: absolute;
+    width: 100%;
+    height: 9vh;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+
+    background: #362316;
+}
+
+.header_text {
+    position: absolute;
+    left: 5%;
+    top: 4.5vh;
+
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 0;
+
+    color: #FFFFFF;
+}
+
+.dashboard_text {
+    font-weight: bold;
+    font-size: 2vw;
+    top: 9vh;
+    height: 9vh;
+    line-height: 9vh;
+
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #734D44;
+}
+
+.dashboard_text:hover {
+    opacity: 0.6;
+    transition: 0.2s;
+    background: #906E66;
+}
+
+.home {
+    position: absolute;
+    width: 25%;
+    left: 0;
+
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    box-sizing: border-box;
+}
+
+.introduction {
+    position: absolute;
+    width: 25%;
+    left: 25%;
+
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    box-sizing: border-box;
+}
+
+.letters {
+    position: absolute;
+    width: 25%;
+    left: 50%;
+
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    box-sizing: border-box;
+}
+
+.places {
+    position: absolute;
+    width: 25%;
+    left: 75%;
+
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    box-sizing: border-box;
+}
+
+.portrait {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    right: 10%;
+    top: 35%;
+    z-index: 10;
+
+    background: #C4C4C4;
+}
+
+.portrait:hover {
+    opacity: 0.3;
+    transition: 0.2s;
+}
+
+
+.caption {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    right: 10%;
+    top: 35%;
+
+    text-align: center;
+}
+
+.caption {
+    font-family: Roboto, serif;
+    font-size: 1vw;
+    position: absolute;
+    right: 10%;
+    display: inline;
+    max-width: 16%;
+}
+
+.para {
+    font-family: Roboto, serif;
+    font-size: 24px;
+    position: absolute;
+    left: 5%;
+    top: 27%;
+    max-width: 60%;
+}
+
+.body {
+    background: #C99944;
+}
+
+.intro {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+
+.contact {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    padding-right: 0.5vw;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.a:link a:visited {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    line-height: 0.2;
+    font-size: 14px;
+    background: black;
+    color: white;
+}
+
+.standard_input {
+    height: 20px;
+}
+
+.large_input {
+    height: 80px;
+    line-height: 10px;
+}
+
+input[type=text] {
+    overflow:auto;
+}
